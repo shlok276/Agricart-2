@@ -20,19 +20,19 @@
     },
     "t&c/**/*.php": {
       "runtime": "vercel-php@0.9.0"
-    },
-    "routes": [
-      {
-        "src": "/",
-        "dest": "/login/login.php"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/$1"
-      }
-    ],
-    "env": {
-      "DB_TYPE": "pgsql"
     }
+  },
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/login/login.php"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "DB_TYPE": "pgsql"
   }
 }

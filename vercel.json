@@ -1,8 +1,5 @@
 {
   "functions": {
-    "api/**/*.php": {
-      "runtime": "vercel-php@0.6.0"
-    },
     "*.php": {
       "runtime": "vercel-php@0.6.0"
     },
@@ -16,6 +13,12 @@
       "runtime": "vercel-php@0.6.0"
     },
     "admin/**/*.php": {
+      "runtime": "vercel-php@0.6.0"
+    },
+    "session/**/*.php": {
+      "runtime": "vercel-php@0.6.0"
+    },
+    "t&c/**/*.php": {
       "runtime": "vercel-php@0.6.0"
     }
   },
